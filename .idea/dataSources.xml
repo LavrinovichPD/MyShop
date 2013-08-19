@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="2171835536">
+    <data-source source="LOCAL" name="Rails MyShop: development" product="" version="" jdbc-version="" driver-name="" driver-version="" uuid="2a6cdb13-73a7-43d2-9b72-f44493a1b444">
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://127.0.0.1/MyShop_development</jdbc-url>
+      <user-name>root</user-name>
+      <user-password>dfe4dfc8dfdfdfc2dfdedfd3dfc0dfd8df9cdf9edf98df9cdf99df9fdf9fdf9e</user-password>
+      <libraries>
+        <library>
+          <url>file://$USER_HOME$/.RubyMine50/config/jdbc-drivers/mysql-connector-license.txt</url>
+        </library>
+        <library>
+          <url>jar://$USER_HOME$/.RubyMine50/config/jdbc-drivers/mysql-connector-java-5.1.26-bin.jar!/</url>
+        </library>
+      </libraries>
+    </data-source>
+    <data-source source="LOCAL" name="Rails MyShop: test" product="" version="" jdbc-version="" driver-name="" driver-version="" uuid="da2826bc-05b1-472b-96ff-7c71ef20c778">
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://127.0.0.1/MyShop_test</jdbc-url>
+      <user-name>root</user-name>
+      <user-password>dfe4dfc8dfdfdfc2dfdedfd3dfc0dfd8df9cdf9edf98df9cdf99df9fdf9fdf9e</user-password>
+      <libraries>
+        <library>
+          <url>file://$USER_HOME$/.RubyMine50/config/jdbc-drivers/mysql-connector-license.txt</url>
+        </library>
+        <library>
+          <url>jar://$USER_HOME$/.RubyMine50/config/jdbc-drivers/mysql-connector-java-5.1.26-bin.jar!/</url>
+        </library>
+      </libraries>
+    </data-source>
+    <data-source source="LOCAL" name="Rails MyShop: production" product="MySQL" version="5.5.32-0ubuntu0.13.04.1" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.26 ( Revision: ${bzr.revision-id} )" uuid="39c21a89-e147-4f0a-ba50-e395ec904853">
+      <extra-name-characters>#@</extra-name-characters>
+      <identifier-quote-string>`</identifier-quote-string>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://127.0.0.1/MyShop_production</jdbc-url>
+      <user-name>root</user-name>
+      <user-password>dfe4dfc8dfdfdfc2dfdedfd3dfc0dfd8df9cdf9edf98df9cdf99df9fdf9fdf9e</user-password>
+      <libraries>
+        <library>
+          <url>file://$USER_HOME$/.RubyMine50/config/jdbc-drivers/mysql-connector-license.txt</url>
+        </library>
+        <library>
+          <url>file://$USER_HOME$/.RubyMine50/config/jdbc-drivers/mysql-connector-java-5.1.26-bin.jar</url>
+        </library>
+      </libraries>
+    </data-source>
+  </component>
+</project>
+
