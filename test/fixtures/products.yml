@@ -1,13 +1,19 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
 
-one:
-  title: MyString
-  description: MyText
-  image_url: MyString
-  price: 9.99
+first_cat:
+  title: First Cat
+  description: Just first cat.
+  image_url: cat1.png
+  price: 100
 
-two:
-  title: MyString
-  description: MyText
-  image_url: MyString
-  price: 9.99
+second_cat:
+  title: Second Cat
+  description: Just second cat.
+  image_url: cat2.jpg
+  price: 200
+
+third_cat:
+  title: Third Cat
+  description: Just third cat.
+  image_url: cat3.jpg
+  price: 300

@@ -6,4 +6,5 @@ class Product < ActiveRecord::Base
     with: %r{\.(gif|jpg|png)\z}i,
     message: 'Only GIF, JPG and PNG formats are supported.'
   }
+  validates :title, length: { minimum: 5 }
 end
