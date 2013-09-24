@@ -7,4 +7,20 @@ class Product < ActiveRecord::Base
     message: 'Only GIF, JPG and PNG formats are supported.'
   }
   validates :title, length: { minimum: 5 }
+  has_many :line_items
+
+  before_destroy :ensure_no_line_items
+
+  private
+
+  def ensure_no_line_items
+    if line_items.empty?
+      true
+    else
+      errors.add(:base, 'line items was founded.')
+      false
+    end
+
+  end
+
 end

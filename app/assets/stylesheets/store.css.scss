@@ -39,5 +39,14 @@
     color: #b8860b;
     font-weight: bold;
     margin-right: 3em;
+    float: left;
+  }
+
+  .button_to {
+    input {
+      border: #005;
+      background: #037;
+      color: #fff;
+    }
   }
 }
