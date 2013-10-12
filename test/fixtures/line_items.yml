@@ -1,11 +1,11 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
 
 one:
-  product_id: 1
-  cart_id: 1
+  product: first_cat
+  order: one
   quantity: 1
 
 two:
-  product_id: 2
-  cart_id: 1
+  product: second_cat
+  cart: one
   quantity: 2

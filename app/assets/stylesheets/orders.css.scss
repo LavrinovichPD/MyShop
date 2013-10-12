@@ -1,0 +1,33 @@
+// Place all the styles related to the Orders controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.myshop_form {
+  fieldset {
+    background: #037;
+    color: #fff;
+    width: 550px;
+    legend {
+      background: #037;
+      font-size: 20px;
+      padding: 5px;
+    }
+    form {
+      label {
+        float: left;
+        text-align: right;
+        display: block;
+        width: 80px;
+      }
+      select, textarea, input {
+        margin-left: 15px;
+      }
+      br {
+        display: none;
+      }
+      .actions {
+        margin-left: 300px;
+      }
+    }
+  }
+}

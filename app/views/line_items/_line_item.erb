@@ -1,0 +1,11 @@
+<% if line_item == @current_item %>
+<li id="current_item">
+<% else %>
+<li>
+<% end %>
+  <%= line_item.product.title %> &times; <%= line_item.quantity %>
+  <span class="item_price"><%= number_to_currency line_item.total_price %></span>
+      <span class="delete_button">
+        <%= button_to 'Delete', line_item, method: :delete, confirm: 'Are you sure?', remote: true %>
+      </span>
+</li>

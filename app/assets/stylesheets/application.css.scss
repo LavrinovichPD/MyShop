@@ -10,6 +10,7 @@
  *
  *= require_self
  *= require_tree .
+ *= require jquery.ui.all
  */
 
 textarea {
@@ -17,7 +18,7 @@ textarea {
 }
 
 body {
-  width: 1000px;
+  width: 1200px;
   margin-left: auto;
   margin-right: auto;
 
@@ -44,7 +45,7 @@ body {
   #columns {
     #main {
       background: #fff;
-      margin-right: 20em;
+      margin-right: 300px;
       padding: 1em;
     }
 
@@ -52,7 +53,7 @@ body {
       background: #003377;
       float: right;
       padding: 1em 2em;
-      width: 15em;
+      width: 250px;
       margin-top: 1px;
       min-height: 800px;
 
@@ -64,6 +65,16 @@ body {
             color: #fff;
             font-size: small;
           }
+        }
+      }
+
+      #cart {
+        color: #fff;
+        ul {
+          width: 250px;
+        }
+        .total_line {
+          border-color: #fff;
         }
       }
     }

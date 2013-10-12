@@ -5,10 +5,17 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+Order.delete_all
+PayType.delete_all
 
-Product.delete_all
-
-Product.create title: 'First cat',
-               description: 'Cat with glasses',
-               image_url: 'cat1.png',
-               price: 100
+PayType.create(name: 'Check')
+PayType.create(name: 'Credit')
+PayType.create(name: 'Purchase')
+Order.transaction do
+  1000.times do
+    Order.create   name: 'Some Name',
+                   address: 'Some Address',
+                   email: 'some@ema.il',
+                   pay_type: PayType.find_by_name('Check')
+  end
+end

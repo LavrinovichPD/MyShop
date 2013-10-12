@@ -15,6 +15,11 @@
           <ul>
             <li><%= link_to 'Catalog', store_path %></li>
           </ul>
+          <div id="cart">
+            <% if @cart %>
+                <%= render @cart %>
+            <% end %>
+          </div>
         </div>
 
         <div id="main">

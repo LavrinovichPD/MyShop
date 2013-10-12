@@ -1,6 +1,7 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
 
 first_cat:
+  id: 1
   title: First Cat
   description: Just first cat.
   image_url: cat1.png

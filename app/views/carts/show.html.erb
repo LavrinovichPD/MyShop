@@ -1,21 +1,5 @@
 <% if notice %>
     <p id="notice"><%= notice %></p>
 <% end %>
-<div class="cart_title">Your Cart</div>
 
-<ul>
-  <% @cart.line_items.each do |item| %>
-    <li>
-      <%= item.product.title %> &times; <%= item.quantity %>
-      <span class="item_price"><%= number_to_currency item.total_price %></span>
-      <span class="delete_button">
-        <%= button_to 'Delete', item, method: :delete, confirm: 'Are you sure?' %>
-      </span>
-    </li>
-  <% end %>
-  <li class="total_line">
-    <span class="item_price"><%= number_to_currency @cart.total_price %></span> Total
-  </li>
-</ul>
-
-<%= button_to 'Empty cart', @cart, method: :delete, confirm: 'Are you sure?' %>
+<%= render @cart %>

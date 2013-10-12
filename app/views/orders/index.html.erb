@@ -1,0 +1,27 @@
+<h1>Listing orders</h1>
+<div id="page_links">
+    <%= will_paginate @orders %>
+</div>
+<table>
+  <thead>
+  <tr>
+    <th>Name</th>
+    <th>Address</th>
+    <th>Email</th>
+    <th>Pay type</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+  </thead>
+  <tbody id="order">
+    <% if @orders.first.nil? %>
+      <%= render @orders %>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Order', new_order_path %>
+
